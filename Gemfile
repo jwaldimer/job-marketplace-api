@@ -48,5 +48,7 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+gem 'ransack'
 gem 'sidekiq'
 gem 'kaminari'
+gem "interactor", "~> 3.0"
