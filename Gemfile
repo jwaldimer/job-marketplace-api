@@ -52,3 +52,4 @@ gem 'ransack'
 gem 'sidekiq'
 gem 'kaminari'
 gem "interactor", "~> 3.0"
+gem 'redis'

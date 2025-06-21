@@ -7,6 +7,10 @@ class Opportunity < ApplicationRecord
   CREATE_PARAMS = %i[title description salary client_id].freeze
 
   def self.ransackable_attributes(auth_object = nil)
-    %w[title description]
+    %w[title description salary]
+  end
+
+  def self.ransackable_associations(auth_object = nil)
+    %w[client]
   end
 end
