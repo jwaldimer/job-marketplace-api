@@ -54,5 +54,5 @@ end
 gem 'ransack'
 gem 'sidekiq'
 gem 'kaminari'
-gem "interactor", "~> 3.0"
+gem "interactor", "~> 3.2"
 gem 'redis'
